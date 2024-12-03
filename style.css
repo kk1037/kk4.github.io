@@ -51,8 +51,8 @@ footer p {
     margin: 0;
 }
 
-/* 武汉市页面图片样式 */
-.wuhan-img {
-    width: 200px; /* 设置图片的固定宽度为500px */
-    height:100; /* 设置图片的固定高度为300px */
+
+.index-img {
+    max-width: 300px; /* 设置图片的最大宽度为300px */
+    height: auto; /* 保持图片的纵横比 */
 }
