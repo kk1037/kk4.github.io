@@ -53,10 +53,7 @@ footer p {
 
 /* 图片样式 */
 img {
-    max-width: 100%; /* 调整图片最大宽度为容器宽度的100% */
-    height: auto; /* 保持图片的纵横比 */
-}*
-.changsha-img {
     max-width: 500px; /* 设置图片的最大宽度为500px */
     height: auto; /* 保持图片的纵横比 */
 }
+    
