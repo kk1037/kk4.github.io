@@ -22,6 +22,8 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    background-color: #555; /* 导航栏背景颜色 */
+    text-align: center; /* 导航栏内容居中 */
 }
 
 nav ul li {
@@ -31,7 +33,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white; /* 导航链接颜色 */
 }
 
 nav ul li a:hover {
@@ -44,6 +46,7 @@ main section {
     padding: 15px;
     background-color: white;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
 }
 
 /* 页脚样式 */
@@ -51,8 +54,23 @@ footer p {
     margin: 0;
 }
 
-
+/* 图片样式 */
 .index-img {
-    max-width: 300px; /* 设置图片的最大宽度为300px */
+    max-width: 100%; /* 设置图片的最大宽度为100% */
     height: auto; /* 保持图片的纵横比 */
+    display: block;
+    margin: 20px auto; /* 图片居中显示 */
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main section {
+        margin: 10px;
+        padding: 10px;
+    }
 }
